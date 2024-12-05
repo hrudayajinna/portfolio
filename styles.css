@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark Background */
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark, semi-transparent navbar */
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff61a6; /* Neon pink hover */
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #00f2ff, #ff61a6); /* New gradient background */
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+.cta-btn {
+  padding: 0.8rem 2rem;
+  background-color: #ff61a6; /* Neon pink for Resume button */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #00f2ff; /* Neon blue hover effect */
+}
+
+/* Section Styles */
+section {
+  padding: 6rem 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ff61a6;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #00f2ff;
+}
+
+/* Projects Section */
+.project-card {
+  background: #333;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  color: #00f2ff;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  color: #ff61a6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #00f2ff;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+}
